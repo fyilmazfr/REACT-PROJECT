@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../css/components/Slideshow.css";
 
 export default function Slideshow({ pictures }) {
   const [index, setIndex] = useState(0);
@@ -35,7 +36,7 @@ export default function Slideshow({ pictures }) {
         <div className="slideshow-controls">
           <button className="slideshow-arrow slideshow-arrow-left" onClick={goPrev}>Précédent</button>
           <button className="slideshow-arrow slideshow-arrow-right" onClick={goNext}>Suivant</button>
-          <p className="slideshow-counter" >
+          <p className="slideshow-counter">
             {index + 1} / {total}
           </p>
         </div>

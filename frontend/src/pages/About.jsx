@@ -1,17 +1,11 @@
-import { useState } from "react";
 import Collapse from "../components/Collapse";
 import Banner from "../components/Banner";
 import bannerAbout from "../assets/banner-about.jpg";
+import "../css/pages/About.css";
 
 export default function About() {
-  const [openCollapse, setOpenCollapse] = useState(null);
-
-  function toggleCollapse(key) {
-    setOpenCollapse((prev) => (prev === key ? null : key));
-  }
-
   return (
-    <div className="container">
+    <div className="about">
       <Banner title="" image={bannerAbout} className="banner-about" />
 
       <div className="about-collapses">

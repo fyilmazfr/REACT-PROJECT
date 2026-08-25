@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Slideshow from "../components/Slideshow";
 import Collapse from "../components/Collapse";
+import "../css/pages/Logement.css";
 
 const MIN_LOGEMENT_COLLAPSE_HEIGHT = 320;
 

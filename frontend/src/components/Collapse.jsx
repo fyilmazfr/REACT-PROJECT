@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import "../css/components/Collapse.css";
 
 export default function Collapse({
   title,

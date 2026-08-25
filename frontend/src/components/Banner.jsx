@@ -1,3 +1,5 @@
+import "../css/components/Banner.css";
+
 export default function Banner({ title, image, className = "" }) {
   return (
     <div

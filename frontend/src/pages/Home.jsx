@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Banner from "../components/Banner";
 import Card from "../components/Card";
 import bannerHome from "../assets/banner-home.jpg";
+import "../css/pages/Home.css";
 
 export default function Home() {
   const [properties, setProperties] = useState([]);
