@@ -94,7 +94,26 @@
 }
 
 .logement-collapses .collapse {
-  width: 582px;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1065px) {
+  .logement-top {
+    flex-direction: column;
+  }
+
+  .logement-right {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logement-collapses {
+    flex-direction: column;
+    gap: 24px;
+  }
 }
 
 @media (max-width: 768px) {

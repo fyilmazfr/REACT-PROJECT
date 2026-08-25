@@ -23,8 +23,33 @@
   gap: 57px;
 }
 
+.nav-link {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 143%;
+  white-space: nowrap;
+}
+
 .nav-link.active {
   text-decoration: underline;
+}
+
+@media (min-width: 769px) and (max-width: 1065px) {
+  .header-inner {
+    height: 76px;
+  }
+
+  .logo {
+    height: 56px;
+  }
+
+  .nav {
+    gap: 32px;
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {
